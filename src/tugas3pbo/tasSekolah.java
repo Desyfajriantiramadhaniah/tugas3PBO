@@ -6,4 +6,14 @@ public class tasSekolah extends tas{
         System.out.println("kain jeans");
         
     }
+
+    public String getBahan() {
+        return bahan;
+    }
+
+    public void setBahan(String bahan) {
+        this.bahan = bahan;
+    }
+    
+    
 }
