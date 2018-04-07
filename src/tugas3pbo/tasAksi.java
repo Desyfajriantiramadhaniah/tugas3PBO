@@ -23,6 +23,15 @@ public class tasAksi {
         ts.cetakInfo();
         System.out.println("bahan \t:"+ts.getBahan());
         ts.throttle();
+  
+        tasKoper tk = new tasKoper();
+        tk.setWarna("biru tua");
+        tk.setMerk("Alto");
+        tk.setHarga(650);
+        tk.setUkuran("medium");
+        tk.cetakInfo();
+        System.out.println("ukuran \t:"+tk.getUkuran());
+       tk.throttle();
     }
     
 }
