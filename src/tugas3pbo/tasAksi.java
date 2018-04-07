@@ -32,6 +32,15 @@ public class tasAksi {
         tk.cetakInfo();
         System.out.println("ukuran \t:"+tk.getUkuran());
        tk.throttle();
+       
+       tasLaptop tl = new tasLaptop();
+       tl.setWarna("hijau");
+       tl.setMerk("bintang");
+       tl.setHarga(150);
+       tl.setBentuk("kotak");
+       tl.cetakInfo();
+       System.out.println("bentuk \t:"+tl.getBentuk());
+       tl.throttle();
     }
     
 }
