@@ -14,6 +14,15 @@ public class tasAksi {
         System.out.println(t.getMerk());
         System.out.print("harga \t:");
         System.out.println(t.getHarga());
+        
+        tasSekolah ts = new tasSekolah();
+        ts.setWarna("merah");
+        ts.setMerk("Channel");
+        ts.setHarga(600);
+        ts.setBahan("kain jeans");
+        ts.cetakInfo();
+        System.out.println("bahan \t:"+ts.getBahan());
+        ts.throttle();
     }
     
 }
