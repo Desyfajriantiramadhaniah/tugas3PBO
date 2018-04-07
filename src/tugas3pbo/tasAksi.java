@@ -7,6 +7,13 @@ public class tasAksi {
         t.setHarga(500);
         
         t.cetakInfo();
+        
+        System.out.print("warna \t:");
+        System.out.println(t.getWarna());
+        System.out.print("merk \t:"); 
+        System.out.println(t.getMerk());
+        System.out.print("harga \t:");
+        System.out.println(t.getHarga());
     }
     
 }
